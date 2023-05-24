@@ -24,7 +24,7 @@ public class CharacterCollision : MonoBehaviour
    void onTriggerExit(Collider other) {
       if (other.gameObject.tag == "obstacle") {
 
-         print("Exitd");
+         print("Exit");
       }
 
    }
