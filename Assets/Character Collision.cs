@@ -5,27 +5,27 @@ using UnityEngine;
 public class CharacterCollision : MonoBehaviour
 {
    void OnTriggerEnter(Collider other) {
-   if (other.gameObject.tag == "obstacle") {
+      if (other.gameObject.tag == "obstacle") {
 
-    print("Enter");
+         print("Enter");
+      }
    }
-}
 
 
 
    void OnTriggerStay(Collider other) {
-   if (other.gameObject.tag == "obstacle") {
+      if (other.gameObject.tag == "obstacle") {
 
-    print("Stay");
-   }
+         print("Stay");
+      }
 
    }
 
    void onTriggerExit(Collider other) {
-   if (other.gameObject.tag == "obstacle") {
+      if (other.gameObject.tag == "obstacle") {
 
-    print("Exit");
-   }
+         print("Exit");
+      }
 
    }
 }
